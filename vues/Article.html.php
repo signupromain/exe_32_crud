@@ -6,7 +6,13 @@
 </head>
 <body>
 <h1><?= $article['titre'] ?></h1>
+<<<<<<< HEAD
 <div id="menu"<a href="?admin"./>Retour sur l'accueil</a></div>
+=======
+<div id="menu">
+    <a href="?admin">Administration des articles</a>
+</div>
+>>>>>>> 15bc1cd096eaba534091e16e1853024b5659d809
 <div id="contenu">
     <h2><?= $article['titre'] ?></h2>
     <p><button onclick="document.location='./'">BACK</button></p>

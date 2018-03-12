@@ -18,6 +18,10 @@ if(empty($_GET)){
 }elseif (isset($_GET['article'])){
     require_once "controller/ArticleController.php";
 
+<<<<<<< HEAD
+=======
+// si on est dans l'administration
+>>>>>>> 15bc1cd096eaba534091e16e1853024b5659d809
 }elseif (isset($_GET['admin'])){
     require_once "controller/AdminController.php";
 
