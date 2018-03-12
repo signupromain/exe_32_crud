@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Accueil</h1>
-
+<div id="menu"<a href="./">Retour sur l'accueil</a></div>
 <div id="contenu">
     <?php
 
